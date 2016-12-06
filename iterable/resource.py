@@ -2,8 +2,8 @@ import iterable
 
 from requests.compat import urljoin
 
-import error
-from .api_requestor import APIRequestor
+from iterable import error
+from iterable.api_requestor import APIRequestor
 
 
 class IterableObject(object):

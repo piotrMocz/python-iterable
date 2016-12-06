@@ -1,7 +1,7 @@
 import textwrap
 import requests
 
-import error
+from iterable import error
 
 
 class HTTPClient(object):
